@@ -20,6 +20,7 @@ void selection_sort(int *array, size_t size)
                 tmp = *(array + i);
                 *(array + i) = *(array + j);
                 *(array + j) = tmp;
+                print_array(array, size);
             }
         }
     }
