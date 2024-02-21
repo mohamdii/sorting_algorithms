@@ -21,6 +21,11 @@ void insertion_sort_list(listint_t **list)
 		}
 	}
 }
+/**
+ * swap - fun that swaps two nodes in a list
+ * @n1: is n1
+ * @n2: is n2
+*/
 void swap(listint_t **h, listint_t **n1, listint_t *n2)
 {
     (*n1)->next = n2->next;
