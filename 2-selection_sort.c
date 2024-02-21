@@ -1,6 +1,8 @@
 #include "sort.h"
 /**
  * selection_sort - implements selection sort alg
+ * @array: input array to be sorted
+ * @size: of the array to be sorted
 */
 void selection_sort(int *array, size_t size)
 {
